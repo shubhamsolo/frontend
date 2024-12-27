@@ -14,9 +14,9 @@ import { Loader2 } from 'lucide-react'
 
 const Login = () => {
     const [input, setInput] = useState({
-        email: "",
-        password: "",
-        role: "",
+        email: "shubhamsolo@gmail.com",
+        password: "P@J@@CwL=y~'8GJ",
+        role: "recruiter",
     });
     const { loading,user } = useSelector(store => store.auth);
     const navigate = useNavigate();
@@ -66,7 +66,7 @@ const Login = () => {
                             value={input.email}
                             name="email"
                             onChange={changeEventHandler}
-                            placeholder="patel@gmail.com"
+                            placeholder="shubhamsolo@gmail.com"
                         />
                     </div>
 
@@ -77,7 +77,7 @@ const Login = () => {
                             value={input.password}
                             name="password"
                             onChange={changeEventHandler}
-                            placeholder="patel@gmail.com"
+                            placeholder="P@J@@CwL=y~'8GJ"
                         />
                     </div>
                     <div className='flex items-center justify-between'>
